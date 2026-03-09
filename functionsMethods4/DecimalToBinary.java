@@ -13,6 +13,6 @@ public class DecimalToBinary {
        System.out.println("the binary form of this decimal number is "+binNum);
     }
     public static void main(String[]args){
-      decToBin(7);
+      decToBin(7);//111
     }
 }

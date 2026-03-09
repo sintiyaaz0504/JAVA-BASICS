@@ -1,0 +1,95 @@
+in side of JRE there is JVM
+inside of JDK there is JRE
+JRE---> JAVA Runtime environment
+JVM is present inside the JRE and it has some libraries which is uesful to run java coe
+the process is like:-                       
+source code.java---->compiler---->Byte Code.class------>Java virtual machine-----> native code
+      |                                  |
+      ------------Compilation stage ------
+ native code can be written based on your system like whether it is linux,windows,or mac 
+ this is why java is portable we can run the java in any system
+ JVM---->native code is called as execution stage
+---------------------------
+ Types of operators
+ Arithmetic operators(unary,binary,ternary)
+ logical
+ bitwise
+ assignment 
+ -----------------------
+  in a code if it has two if statements it checks both if condition
+  in a code if it has one if and one else if, it checks else if ,if and only if statement is false
+  ---------------------------
+  reverse a number(logic):
+  if you want last digit of any number then take remainder
+  ex:- last Digit=number%10
+  In order to delete last number then just divide by 10
+  ex:-remove last digit=number/10
+  ----------------------------------
+  In short
+  lastDigit= number%10
+  remove last Digit= number/10
+  -------------------------------
+prime number(a number divisible by 1 and itself) loop:-
+for(int i=2;i<math.sqrt(n);i++){
+    if(n%i==0){
+        not prime
+    }else{
+        prime
+    }
+}
+--------------------------------------------------------------------
+functions:-
+returnType name(type param1,type param2){
+//function definition lo rasede parameters or formal parameters
+}
+---------------------------------------------------------------------
+name(a,b) // function calling lo rasede arguments or actual parameters
+----------------------------------------------------------------------------
+call by value:-
+java always calls by value
+in function calling or passing values to the other function it gives copy of variable not original value
+ex:-  // changeA(int a){
+//     a=10;
+// }
+// psvm(){
+//     int a=5;
+//     changeA(a);//copy of a is given to changeA function
+//     System.out.println(a);//o/p:-5
+// }
+-------------------------------------------------------------------------------------
+float is written as:-
+float pi=3.14f;
+---------------------------------------------------------------------------------
+binary form of decimal number:
+dec=10 // that is why maths follows decimal number system(0-9)
+all numbers in maths(9988456) is a combination of (0-9)
+-------------------------------------------------------------------------------
+decimal -----To-----Binary
+  0                   (0)
+  1                   (01)
+  2                   (10)
+  3                   (11)
+  4                   (100)   
+  5                   (101)
+  6                    (110)
+  7                    (111)
+  8                    (1000)
+  --------------------------------------------------------------------------------------
+scope:
+  1.method scope
+  2.Block scope
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
